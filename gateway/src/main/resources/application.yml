@@ -1,0 +1,54 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8089
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+    discovery:
+      enabled: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/azo-framework
+
+
+server:
+  port: 8081
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+
+logging:
+  file:
+    name: ./logs/${spring.application.name:${random.value}}.log
+  level:
+    reactor:
+      netty: error
+    org:
+      springframework:
+        cloud:
+          gateway: error
+#          gateway: TRACE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
