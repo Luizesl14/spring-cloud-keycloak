@@ -591,3 +591,425 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2023-01-12 14:02:05.358  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
 2023-01-12 14:02:33.202  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2023-01-12 14:03:33.203  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:04:33.204  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:05:32.441  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:05:33.205  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:06:33.205  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:07:33.206  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:08:33.206  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:09:33.206  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:10:32.443  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:10:33.206  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:11:33.207  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:11:34.328  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 14:11:34.835  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 14:11:39.432  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 14:11:39.954  WARN 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 14:11:39.955  INFO 8380 --- [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 14:11:39.955  WARN 8380 --- [TaskBatchingWorker-target_localhost-1] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 14:11:39.955  WARN 8380 --- [TaskBatchingWorker-target_localhost-1] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 14:11:50.227  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 14:11:50.730  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 14:12:03.654  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939 with status DOWN (replication=false)
+2023-01-12 14:12:04.163  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939 with status DOWN (replication=true)
+2023-01-12 14:12:04.429  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:12:08.759  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939 (replication=false)
+2023-01-12 14:12:09.267  WARN 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939
+2023-01-12 14:12:09.267  INFO 8380 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:79e6273a95388c6e4b2122d472096939
+2023-01-12 14:12:09.267  WARN 8380 --- [TaskBatchingWorker-target_localhost-0] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939:Cancel@localhost failed with response code 404
+2023-01-12 14:12:09.268  WARN 8380 --- [TaskBatchingWorker-target_localhost-0] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939:Cancel@localhost: missing entry.
+2023-01-12 14:12:17.508  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a with status UP (replication=false)
+2023-01-12 14:12:18.016  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a with status UP (replication=true)
+2023-01-12 14:12:33.207  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:13:33.208  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:13:33.945  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a with status DOWN (replication=false)
+2023-01-12 14:13:34.432  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:13:34.457  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a with status DOWN (replication=true)
+2023-01-12 14:13:39.030  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a (replication=false)
+2023-01-12 14:13:39.534  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a
+2023-01-12 14:13:39.534  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:f40b8d29b39920b328000d89feeb787a
+2023-01-12 14:13:39.534  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a:Cancel@localhost failed with response code 404
+2023-01-12 14:13:39.535  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:f40b8d29b39920b328000d89feeb787a:Cancel@localhost: missing entry.
+2023-01-12 14:13:49.878  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335 with status UP (replication=false)
+2023-01-12 14:13:50.391  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335 with status UP (replication=true)
+2023-01-12 14:14:33.209  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:15:32.051  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 14:15:32.443  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:15:33.209  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:16:33.209  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:17:33.209  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:18:33.210  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:18:47.619  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335 with status DOWN (replication=false)
+2023-01-12 14:18:48.127  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335 with status DOWN (replication=true)
+2023-01-12 14:18:52.736  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335 (replication=false)
+2023-01-12 14:18:53.248  WARN 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335
+2023-01-12 14:18:53.248  INFO 8380 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:a39faac423e30ef932bad7f9caa39335
+2023-01-12 14:18:53.248  WARN 8380 --- [TaskBatchingWorker-target_localhost-2] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335:Cancel@localhost failed with response code 404
+2023-01-12 14:18:53.248  WARN 8380 --- [TaskBatchingWorker-target_localhost-2] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:a39faac423e30ef932bad7f9caa39335:Cancel@localhost: missing entry.
+2023-01-12 14:18:54.412  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:19:02.774  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae with status UP (replication=false)
+2023-01-12 14:19:03.275  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae with status UP (replication=true)
+2023-01-12 14:19:33.210  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:20:20.754  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae with status DOWN (replication=false)
+2023-01-12 14:20:20.933  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae with status DOWN (replication=true)
+2023-01-12 14:20:24.431  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:20:25.850  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae (replication=false)
+2023-01-12 14:20:26.354  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae
+2023-01-12 14:20:26.354  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:2c8a77aaacbdc8ff9302c99b941a59ae
+2023-01-12 14:20:26.356  WARN 8380 --- [TaskBatchingWorker-target_localhost-12] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae:Cancel@localhost failed with response code 404
+2023-01-12 14:20:26.356  WARN 8380 --- [TaskBatchingWorker-target_localhost-12] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:2c8a77aaacbdc8ff9302c99b941a59ae:Cancel@localhost: missing entry.
+2023-01-12 14:20:32.445  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:20:33.211  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:20:38.893  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3 with status UP (replication=false)
+2023-01-12 14:20:39.402  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3 with status UP (replication=true)
+2023-01-12 14:21:33.211  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:22:33.213  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 14:23:33.214  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:24:33.215  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:25:32.446  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:25:33.215  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:26:33.216  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:27:33.217  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 14:28:33.218  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:29:33.218  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:30:32.052  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 14:30:32.452  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:30:33.219  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:31:33.220  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:32:33.234  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 14:33:33.235  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:34:33.237  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 14:34:37.369  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3 with status DOWN (replication=false)
+2023-01-12 14:34:37.878  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3 with status DOWN (replication=true)
+2023-01-12 14:34:42.485  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3 (replication=false)
+2023-01-12 14:34:42.986  WARN 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3
+2023-01-12 14:34:42.987  INFO 8380 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:2b1241e528ea5d356f9beb6ede323dd3
+2023-01-12 14:34:42.987  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3:Cancel@localhost failed with response code 404
+2023-01-12 14:34:42.987  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:2b1241e528ea5d356f9beb6ede323dd3:Cancel@localhost: missing entry.
+2023-01-12 14:34:44.451  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:35:02.499  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec with status UP (replication=false)
+2023-01-12 14:35:03.004  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec with status UP (replication=true)
+2023-01-12 14:35:32.464  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:35:33.247  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-01-12 14:36:33.248  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:37:33.262  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 14:38:33.277  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 14:39:09.586  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec with status DOWN (replication=false)
+2023-01-12 14:39:10.096  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec with status DOWN (replication=true)
+2023-01-12 14:39:14.432  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:39:14.687  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec (replication=false)
+2023-01-12 14:39:15.199  WARN 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec
+2023-01-12 14:39:15.200  INFO 8380 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:361ce6d30fcf681a66e4cf9085e502ec
+2023-01-12 14:39:15.200  WARN 8380 --- [TaskBatchingWorker-target_localhost-17] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec:Cancel@localhost failed with response code 404
+2023-01-12 14:39:15.200  WARN 8380 --- [TaskBatchingWorker-target_localhost-17] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:361ce6d30fcf681a66e4cf9085e502ec:Cancel@localhost: missing entry.
+2023-01-12 14:39:21.692  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156 with status UP (replication=false)
+2023-01-12 14:39:22.206  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156 with status UP (replication=true)
+2023-01-12 14:39:33.278  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:39:56.470  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156 with status DOWN (replication=false)
+2023-01-12 14:39:56.975  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156 with status DOWN (replication=true)
+2023-01-12 14:40:01.577  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156 (replication=false)
+2023-01-12 14:40:02.087  WARN 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156
+2023-01-12 14:40:02.087  INFO 8380 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:48d8f7b7478f328d8b384514d17c0156
+2023-01-12 14:40:02.087  WARN 8380 --- [TaskBatchingWorker-target_localhost-12] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156:Cancel@localhost failed with response code 404
+2023-01-12 14:40:02.088  WARN 8380 --- [TaskBatchingWorker-target_localhost-12] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:48d8f7b7478f328d8b384514d17c0156:Cancel@localhost: missing entry.
+2023-01-12 14:40:09.977  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63 with status UP (replication=false)
+2023-01-12 14:40:10.490  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63 with status UP (replication=true)
+2023-01-12 14:40:32.478  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:40:33.292  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 14:40:42.039  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63 with status DOWN (replication=false)
+2023-01-12 14:40:42.550  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63 with status DOWN (replication=true)
+2023-01-12 14:40:47.137  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63 (replication=false)
+2023-01-12 14:40:47.646  WARN 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63
+2023-01-12 14:40:47.647  INFO 8380 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63
+2023-01-12 14:40:47.647  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63:Cancel@localhost failed with response code 404
+2023-01-12 14:40:47.648  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:dbac2b1ed93c933dea06f5ea2cf5fe63:Cancel@localhost: missing entry.
+2023-01-12 14:40:53.750  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f with status UP (replication=false)
+2023-01-12 14:40:54.259  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f with status UP (replication=true)
+2023-01-12 14:41:33.295  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 14:41:36.446  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f with status DOWN (replication=false)
+2023-01-12 14:41:36.954  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f with status DOWN (replication=true)
+2023-01-12 14:41:41.556  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f (replication=false)
+2023-01-12 14:41:42.062  WARN 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f
+2023-01-12 14:41:42.062  INFO 8380 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ADMIN-SERVER - admin-server:8684f111d1bb3ee68f0b151af1f8a52f
+2023-01-12 14:41:42.062  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f:Cancel@localhost failed with response code 404
+2023-01-12 14:41:42.062  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : ADMIN-SERVER/admin-server:8684f111d1bb3ee68f0b151af1f8a52f:Cancel@localhost: missing entry.
+2023-01-12 14:41:48.371  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:039d813e38298cb1b52ca3c0e7fce72b with status UP (replication=false)
+2023-01-12 14:41:48.875  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:039d813e38298cb1b52ca3c0e7fce72b with status UP (replication=true)
+2023-01-12 14:42:33.305  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 14:42:54.403  INFO 8380 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-01-12 14:42:54.403  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1673545374403, current=DOWN, previous=UP]
+2023-01-12 14:42:54.404  INFO 8380 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761: registering service...
+2023-01-12 14:42:54.406  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 with status DOWN (replication=false)
+2023-01-12 14:42:54.407  INFO 8380 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 - registration status: 204
+2023-01-12 14:42:54.415  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 14:42:54.477  INFO 8380 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-01-12 14:42:54.481  INFO 8380 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-01-12 14:42:54.482  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-01-12 14:42:54.484  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-01-12 14:42:54.484  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-01-12 14:42:54.484  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-01-12 14:42:54.500  INFO 8380 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-01-12 14:42:54.500  INFO 8380 --- [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-01-12 14:42:54.501  INFO 8380 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-01-12 14:42:54.506  INFO 8380 --- [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-01-12 14:42:54.524  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-01-12 14:42:57.541  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-01-12 14:42:57.595  INFO 8380 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 more
+
+2023-01-12 14:42:57.595  WARN 8380 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2023-01-12 14:42:57.632  INFO 8380 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 more
+
+2023-01-12 14:42:57.633  WARN 8380 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2023-01-12 14:42:57.640 ERROR 8380 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114) ~[spring-boot-2.6.4.jar:2.6.4]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-12 14:42:57.645  INFO 8380 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-01-12 14:43:15.959  INFO 17060 --- [restartedMain] com.discovery.DiscoveryApplication       : Starting DiscoveryApplication using Java 17.0.5 on DESKTOP-52RDHCL with PID 17060 (C:\Users\LuizAugusto\Desktop\REPO\crediblue\spring-cloud-keycloak\discovery\target\classes started by LuizAugusto in C:\Users\LuizAugusto\Desktop\REPO\crediblue\spring-cloud-keycloak)
+2023-01-12 14:43:15.960  INFO 17060 --- [restartedMain] com.discovery.DiscoveryApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 14:43:16.003  INFO 17060 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\LuizAugusto\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-01-12 14:43:16.004  INFO 17060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-12 14:43:16.004  INFO 17060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-12 14:43:16.973  INFO 17060 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c5dd5dcf-49cd-3844-a814-d2ce687f84b0
+2023-01-12 14:43:17.037  INFO 17060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 14:43:17.038  INFO 17060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 14:43:17.039  INFO 17060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 14:43:17.376  INFO 17060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-01-12 14:43:17.383  INFO 17060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 14:43:17.383  INFO 17060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-01-12 14:43:17.471  INFO 17060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-12 14:43:17.471  INFO 17060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1467 ms
+2023-01-12 14:43:17.772  INFO 17060 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2023-01-12 14:43:17.838  INFO 17060 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-01-12 14:43:17.884  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 14:43:17.885  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 14:43:18.006  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 14:43:18.006  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 14:43:19.210  INFO 17060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-12 14:43:19.313  INFO 17060 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-01-12 14:43:19.350  WARN 17060 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-12 14:43:19.363  INFO 17060 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-12 14:43:19.389  INFO 17060 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-12 14:43:19.409  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 14:43:19.409  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 14:43:19.409  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 14:43:19.409  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 14:43:19.522  INFO 17060 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:43:19.534  INFO 17060 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-12 14:43:19.536  INFO 17060 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-12 14:43:19.539  INFO 17060 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1673545399538 with initial instances count: 0
+2023-01-12 14:43:19.566  INFO 17060 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-01-12 14:43:19.567  INFO 17060 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2023-01-12 14:43:19.570  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 14:43:19.570  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 14:43:19.570  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 14:43:19.570  INFO 17060 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 14:43:19.669  INFO 17060 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2023-01-12 14:43:19.674  INFO 17060 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-01-12 14:43:19.674  INFO 17060 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-01-12 14:43:19.678  INFO 17060 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2023-01-12 14:43:19.735  INFO 17060 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERY-SERVER with eureka with status UP
+2023-01-12 14:43:19.736  INFO 17060 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1673545399736, current=UP, previous=STARTING]
+2023-01-12 14:43:19.738  INFO 17060 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761: registering service...
+2023-01-12 14:43:19.740  INFO 17060 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2023-01-12 14:43:19.751  INFO 17060 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-01-12 14:43:19.752  INFO 17060 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-01-12 14:43:19.770  INFO 17060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-01-12 14:43:19.771  INFO 17060 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-01-12 14:43:19.863  INFO 17060 --- [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 14:43:19.863  INFO 17060 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 14:43:19.864  INFO 17060 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-12 14:43:19.916  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 with status UP (replication=false)
+2023-01-12 14:43:19.930  INFO 17060 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 - registration status: 204
+2023-01-12 14:43:19.997  INFO 17060 --- [restartedMain] com.discovery.DiscoveryApplication       : Started DiscoveryApplication in 4.576 seconds (JVM running for 5.326)
+2023-01-12 14:43:20.049  WARN 17060 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 14:43:20.435  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 with status UP (replication=true)
+2023-01-12 14:43:35.124  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 14:43:35.637  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 14:43:53.822  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:aadbc4f270519dbfd7d05e3e4a10c671 with status UP (replication=false)
+2023-01-12 14:43:54.341  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:aadbc4f270519dbfd7d05e3e4a10c671 with status UP (replication=true)
+2023-01-12 14:44:08.659  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712 with status UP (replication=false)
+2023-01-12 14:44:09.170  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712 with status UP (replication=true)
+2023-01-12 14:44:56.583  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712 with status DOWN (replication=false)
+2023-01-12 14:44:57.091  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712 with status DOWN (replication=true)
+2023-01-12 14:45:01.684  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712 (replication=false)
+2023-01-12 14:45:02.192  WARN 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712
+2023-01-12 14:45:02.192  INFO 17060 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): CRM-MODULE - crm-module:eadb7dbe0adad4b29fefcae0bd716712
+2023-01-12 14:45:02.193  WARN 17060 --- [TaskBatchingWorker-target_localhost-12] c.n.eureka.cluster.ReplicationTask       : The replication of task CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712:Cancel@localhost failed with response code 404
+2023-01-12 14:45:02.193  WARN 17060 --- [TaskBatchingWorker-target_localhost-12] c.netflix.eureka.cluster.PeerEurekaNode  : CRM-MODULE/crm-module:eadb7dbe0adad4b29fefcae0bd716712:Cancel@localhost: missing entry.
+2023-01-12 14:45:08.200  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:3fcec33caa631cfcff9ae77514db1811 with status UP (replication=false)
+2023-01-12 14:45:08.710  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CRM-MODULE/crm-module:3fcec33caa631cfcff9ae77514db1811 with status UP (replication=true)
+2023-01-12 14:45:19.756  INFO 17060 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-01-12 14:45:19.757  INFO 17060 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-01-12 14:45:19.758  INFO 17060 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-01-12 14:45:19.763  INFO 17060 --- [Thread-15] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-01-12 14:46:19.761  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:47:19.773  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 14:48:19.743  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:48:19.789  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 14:49:19.789  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:50:19.802  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 14:51:19.803  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms

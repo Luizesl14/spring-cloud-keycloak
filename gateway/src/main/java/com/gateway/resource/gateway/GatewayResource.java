@@ -21,29 +21,29 @@ public class GatewayResource {
                         .filters(f-> f.stripPrefix(1))
                         .uri("lb://admin-server/"))
 
-                .route("eureka" ,r-> r.path("/eureka/**")
+                .route("crm", r-> r.path("/crm/**")
                         .filters(f -> f.filters(filterFactory.apply())
                                 .removeRequestHeader("Cookie"))
-                        .uri("lb://discovery-server"))
-
-                .route("crm", r-> r.path("/crm/**")
-                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://crm-module"))
 
                 .route("credit", r-> r.path("/credit/**")
-                        .filters(f-> f.stripPrefix(1))
+                        .filters(f -> f.filters(filterFactory.apply())
+                                .removeRequestHeader("Cookie"))
                         .uri("lb://credit-module"))
 
                 .route("k_adm", r-> r.path("/k_adm/**")
-                        .filters(f-> f.stripPrefix(1))
+                        .filters(f -> f.filters(filterFactory.apply())
+                                .removeRequestHeader("Cookie"))
                         .uri("lb://keycloak-module"))
 
                 .route("reg", r-> r.path("/reg/**")
-                        .filters(f-> f.stripPrefix(1))
+                        .filters(f -> f.filters(filterFactory.apply())
+                                .removeRequestHeader("Cookie"))
                         .uri("lb://register-module"))
 
                 .route("risk", r-> r.path("/risk/**")
-                        .filters(f-> f.stripPrefix(1))
+                        .filters(f -> f.filters(filterFactory.apply())
+                                .removeRequestHeader("Cookie"))
                         .uri("lb://risk-module"))
                 .build();
     }
