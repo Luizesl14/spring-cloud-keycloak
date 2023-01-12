@@ -1,4 +1,4 @@
-package com.gateway.health;
+package com.gateway.resource.health;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

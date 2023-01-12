@@ -46,3 +46,548 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2023-01-12 08:35:08.888  INFO 23288 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
 2023-01-12 08:36:08.897  INFO 23288 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
 2023-01-12 08:37:08.899  INFO 23288 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 09:19:10.338  INFO 8380 --- [restartedMain] com.discovery.DiscoveryApplication       : Starting DiscoveryApplication using Java 17.0.5 on DESKTOP-52RDHCL with PID 8380 (C:\Users\LuizAugusto\Desktop\REPO\crediblue\spring-cloud-keycloak\discovery\target\classes started by LuizAugusto in C:\Users\LuizAugusto\Desktop\REPO\crediblue\spring-cloud-keycloak)
+2023-01-12 09:19:10.339  INFO 8380 --- [restartedMain] com.discovery.DiscoveryApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 09:19:10.388  INFO 8380 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\LuizAugusto\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/LuizAugusto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-01-12 09:19:10.389  INFO 8380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-12 09:19:10.389  INFO 8380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-12 09:19:11.373  INFO 8380 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c5dd5dcf-49cd-3844-a814-d2ce687f84b0
+2023-01-12 09:19:11.439  INFO 8380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 09:19:11.439  INFO 8380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 09:19:11.441  INFO 8380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-12 09:19:11.764  INFO 8380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-01-12 09:19:11.771  INFO 8380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 09:19:11.772  INFO 8380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-01-12 09:19:11.855  INFO 8380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-12 09:19:11.855  INFO 8380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1466 ms
+2023-01-12 09:19:12.170  INFO 8380 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2023-01-12 09:19:12.242  INFO 8380 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-01-12 09:19:12.289  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 09:19:12.290  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 09:19:12.414  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 09:19:12.415  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 09:19:13.636  INFO 8380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-12 09:19:13.738  INFO 8380 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-01-12 09:19:13.778  WARN 8380 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-12 09:19:13.792  INFO 8380 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-12 09:19:13.818  INFO 8380 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-12 09:19:13.838  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 09:19:13.838  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 09:19:13.838  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 09:19:13.839  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 09:19:13.958  INFO 8380 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:19:13.972  INFO 8380 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-12 09:19:13.974  INFO 8380 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-12 09:19:13.977  INFO 8380 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1673525953976 with initial instances count: 0
+2023-01-12 09:19:14.001  INFO 8380 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-01-12 09:19:14.002  INFO 8380 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2023-01-12 09:19:14.005  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-01-12 09:19:14.005  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-01-12 09:19:14.005  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-01-12 09:19:14.005  INFO 8380 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-01-12 09:19:14.110  INFO 8380 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2023-01-12 09:19:14.117  INFO 8380 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-01-12 09:19:14.118  INFO 8380 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-01-12 09:19:14.122  INFO 8380 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2023-01-12 09:19:14.183  INFO 8380 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERY-SERVER with eureka with status UP
+2023-01-12 09:19:14.184  INFO 8380 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1673525954184, current=UP, previous=STARTING]
+2023-01-12 09:19:14.185  INFO 8380 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761: registering service...
+2023-01-12 09:19:14.186  INFO 8380 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2023-01-12 09:19:14.197  INFO 8380 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-01-12 09:19:14.197  INFO 8380 --- [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-01-12 09:19:14.213  INFO 8380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-01-12 09:19:14.214  INFO 8380 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-01-12 09:19:14.287  INFO 8380 --- [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 09:19:14.287  INFO 8380 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 09:19:14.288  INFO 8380 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-12 09:19:14.347  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 with status UP (replication=false)
+2023-01-12 09:19:14.363  INFO 8380 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 - registration status: 204
+2023-01-12 09:19:14.439  INFO 8380 --- [restartedMain] com.discovery.DiscoveryApplication       : Started DiscoveryApplication in 4.658 seconds (JVM running for 5.709)
+2023-01-12 09:19:14.476  WARN 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=discovery-server, managementUrl=http://DESKTOP-52RDHCL:8761/actuator, healthUrl=http://DESKTOP-52RDHCL:8761/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:8761/) at spring-boot-admin ([http://localhost:8089/instances]): I/O error on POST request for "http://localhost:8089/instances": Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8089 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2023-01-12 09:19:14.861  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance DISCOVERY-SERVER/DESKTOP-52RDHCL:discovery-server:8761 with status UP (replication=true)
+2023-01-12 09:20:03.678  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 09:20:04.191  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 09:20:27.627  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939 with status UP (replication=false)
+2023-01-12 09:20:28.136  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/admin-server:79e6273a95388c6e4b2122d472096939 with status UP (replication=true)
+2023-01-12 09:20:34.517  INFO 8380 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as be030db67a7e
+2023-01-12 09:21:14.208  INFO 8380 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-01-12 09:21:14.209  INFO 8380 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-01-12 09:21:14.211  INFO 8380 --- [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-01-12 09:21:14.217  INFO 8380 --- [Thread-15] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-01-12 09:22:14.222  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:23:14.223  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 09:24:14.188  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:24:14.224  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:25:14.236  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 09:26:14.237  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:27:14.238  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 09:28:14.250  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 09:29:14.204  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:29:14.251  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 09:30:14.252  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:31:14.253  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:32:14.268  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 09:33:14.269  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:34:14.117  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2023-01-12 09:34:14.208  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:34:14.270  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:35:14.270  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:36:14.271  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:37:14.271  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:38:14.421  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 149ms
+2023-01-12 09:39:14.331  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:39:14.420  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:40:14.421  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:41:00.091  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 09:41:00.686  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 09:41:05.171  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 09:41:05.680  WARN 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:41:05.680  INFO 8380 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:41:05.681  WARN 8380 --- [TaskBatchingWorker-target_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 09:41:05.681  WARN 8380 --- [TaskBatchingWorker-target_localhost-15] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 09:41:14.421  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:42:14.422  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:43:14.422  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:44:14.332  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:44:14.422  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:45:03.920  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 09:45:04.433  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 09:45:14.423  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:46:14.457  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 34ms
+2023-01-12 09:47:14.457  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:47:44.445  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 09:47:45.002  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 09:47:49.567  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 09:47:50.079  WARN 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:47:50.079  INFO 8380 --- [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:47:50.079  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 09:47:50.079  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 09:48:03.848  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 09:48:04.352  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 09:48:14.457  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:49:14.118  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 09:49:14.339  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:49:14.457  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:49:47.202  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 09:49:47.710  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 09:49:52.347  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 09:49:52.857  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:49:52.857  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 09:49:52.857  WARN 8380 --- [TaskBatchingWorker-target_localhost-7] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 09:49:52.858  WARN 8380 --- [TaskBatchingWorker-target_localhost-7] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 09:50:08.247  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 09:50:08.763  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 09:50:14.469  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 09:51:14.470  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:52:14.472  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 09:53:14.485  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 09:54:14.346  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:54:14.486  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 09:55:14.492  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 09:56:14.501  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 09:57:14.512  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 09:58:14.512  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 09:59:14.361  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 09:59:14.517  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 10:00:14.517  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:01:14.527  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 10:02:14.538  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 10:03:14.542  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-01-12 10:03:41.732  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:03:42.243  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:03:46.846  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:03:47.352  WARN 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:03:47.352  INFO 8380 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:03:47.353  WARN 8380 --- [TaskBatchingWorker-target_localhost-1] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:03:47.353  WARN 8380 --- [TaskBatchingWorker-target_localhost-1] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:04:01.415  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:04:01.659  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:04:14.127  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 10:04:14.374  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:04:14.545  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-01-12 10:05:05.024  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:05:05.542  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:05:10.176  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:05:10.679  WARN 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:05:10.680  INFO 8380 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:05:10.680  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:05:10.680  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:05:14.556  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 10:05:19.714  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:05:20.216  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:06:14.563  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 10:06:30.434  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:06:30.941  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:06:35.546  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:06:36.058  WARN 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:06:36.058  INFO 8380 --- [http-nio-8761-exec-4] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:06:36.059  WARN 8380 --- [TaskBatchingWorker-target_localhost-18] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:06:36.059  WARN 8380 --- [TaskBatchingWorker-target_localhost-18] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:06:43.809  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:06:44.337  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:07:14.564  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:08:14.579  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 10:08:19.540  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:08:20.047  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:08:24.656  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:08:25.164  WARN 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:08:25.165  INFO 8380 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:08:25.165  WARN 8380 --- [TaskBatchingWorker-target_localhost-8] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:08:25.165  WARN 8380 --- [TaskBatchingWorker-target_localhost-8] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:08:47.593  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:08:48.098  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:09:14.384  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:09:14.590  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-01-12 10:10:14.591  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 10:11:14.591  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:11:46.346  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:11:46.849  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:11:51.462  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:11:51.974  WARN 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:11:51.975  INFO 8380 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:11:51.975  WARN 8380 --- [TaskBatchingWorker-target_localhost-10] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:11:51.975  WARN 8380 --- [TaskBatchingWorker-target_localhost-10] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:12:01.495  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:12:02.001  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:12:14.592  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:13:14.593  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:13:20.138  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:13:20.645  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:13:25.231  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:13:25.739  WARN 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:13:25.740  INFO 8380 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:13:25.740  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:13:25.740  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:13:33.692  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:13:34.202  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:14:14.394  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:14:14.598  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 10:15:14.608  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 10:15:59.627  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:16:00.141  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:16:04.718  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:16:05.227  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:16:05.227  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:16:05.227  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:16:05.227  WARN 8380 --- [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:16:14.622  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 10:16:17.105  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:16:17.616  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:17:14.622  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:18:03.754  INFO 8380 --- [http-nio-8761-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed
+2023-01-12 10:18:14.637  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 10:19:14.138  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 10:19:14.396  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:19:14.647  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 10:20:14.653  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 10:21:14.659  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 10:22:14.659  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:23:14.660  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:24:14.409  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:24:14.669  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 10:25:14.679  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 10:25:47.841  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:25:48.347  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:25:52.943  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:25:53.108  WARN 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:25:53.109  INFO 8380 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:25:53.110  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:25:53.110  WARN 8380 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:26:03.687  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:26:04.202  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:26:14.687  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 10:27:14.692  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 10:28:14.705  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 10:29:14.418  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:29:14.717  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 10:30:14.723  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 10:31:14.723  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:32:14.727  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-01-12 10:33:14.727  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:34:14.152  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 10:34:14.429  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:34:14.741  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 10:35:14.742  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:36:05.062  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:36:05.565  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:36:10.178  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:36:10.682  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:36:10.682  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:36:10.683  WARN 8380 --- [TaskBatchingWorker-target_localhost-7] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:36:10.683  WARN 8380 --- [TaskBatchingWorker-target_localhost-7] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:36:14.743  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:36:30.085  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:36:30.589  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:36:57.348  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:36:57.855  INFO 8380 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:37:02.453  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:37:02.956  WARN 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:37:02.957  INFO 8380 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:37:02.957  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:37:02.957  WARN 8380 --- [TaskBatchingWorker-target_localhost-19] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:37:11.396  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:37:11.902  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:37:14.743  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:38:14.744  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:39:14.430  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:39:14.744  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:40:14.745  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:41:14.746  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:42:14.746  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:43:13.860  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:43:14.255  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:43:14.747  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:43:18.969  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:43:19.473  WARN 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:43:19.474  INFO 8380 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:43:19.474  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:43:19.474  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:44:14.432  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:44:14.747  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:45:14.748  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:45:29.893  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:45:30.401  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:46:14.748  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:47:14.749  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:48:14.446  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 10:48:14.557  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 10:48:14.749  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:48:19.557  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 10:48:20.064  WARN 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:48:20.065  INFO 8380 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 10:48:20.065  WARN 8380 --- [TaskBatchingWorker-target_localhost-9] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 10:48:20.065  WARN 8380 --- [TaskBatchingWorker-target_localhost-9] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 10:48:30.396  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 10:48:30.904  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 10:49:14.152  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 10:49:14.432  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:49:14.750  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:50:14.750  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:51:14.751  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:52:14.752  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:53:14.752  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:54:14.435  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:54:14.752  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:55:14.752  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:56:14.753  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:57:14.753  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:58:14.754  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 10:59:14.437  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 10:59:14.754  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:00:14.755  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:01:14.756  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:02:14.756  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:03:14.757  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 11:04:14.152  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 11:04:14.454  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:04:14.758  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:05:14.779  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 22ms
+2023-01-12 11:06:14.781  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:07:14.785  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 11:08:06.719  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 11:08:07.226  INFO 8380 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 11:08:11.836  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 11:08:12.343  WARN 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 11:08:12.344  INFO 8380 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 11:08:12.344  WARN 8380 --- [TaskBatchingWorker-target_localhost-16] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 11:08:12.345  WARN 8380 --- [TaskBatchingWorker-target_localhost-16] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 11:08:14.786  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:09:14.459  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:09:14.786  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:10:14.797  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 11:11:14.799  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 11:12:14.799  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:13:14.812  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 11:14:14.463  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:14:14.820  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 11:15:14.830  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 11:16:14.841  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 11:17:14.841  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:18:14.841  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:19:14.161  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 11:19:14.472  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:19:14.846  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 11:20:14.847  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:21:14.847  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:22:14.848  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:23:14.849  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:24:14.474  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:24:14.849  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:25:14.849  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:26:14.849  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:27:14.850  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:28:14.851  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:29:14.475  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:29:14.851  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:30:14.852  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:31:14.853  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:32:14.853  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:33:14.853  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:34:14.162  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 11:34:14.487  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:34:14.854  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:35:14.854  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:36:14.855  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:37:14.863  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 11:38:14.863  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 11:39:14.495  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 11:39:14.863  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:21:32.706  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2477880ms
+2023-01-12 12:22:32.720  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 12:23:32.728  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 12:24:32.732  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 12:25:32.337  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:25:32.746  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 12:26:32.760  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 12:27:32.768  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 12:28:32.768  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:29:32.768  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:30:32.018  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 12:30:32.345  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:30:32.781  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 12:31:32.782  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:32:32.782  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:33:32.782  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:34:32.797  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 12:35:32.357  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:35:32.803  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 12:36:32.816  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 12:37:32.827  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 12:38:32.834  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 12:39:32.839  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 12:40:32.361  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:40:32.839  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:41:32.843  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-01-12 12:42:32.843  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:43:32.848  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 12:44:32.856  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 12:45:32.031  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 12:45:32.372  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:45:32.871  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 12:46:32.872  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:47:32.872  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:48:32.872  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:49:32.872  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:50:32.375  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:50:32.873  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:51:32.874  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 12:52:32.875  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:53:32.875  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:54:32.876  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:55:32.376  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 12:55:32.876  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:56:32.876  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:57:32.876  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:58:32.877  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 12:58:58.727  INFO 8380 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 12:58:59.236  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 12:59:32.878  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:00:32.032  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 13:00:32.379  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:00:32.878  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:01:32.894  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 13:02:32.904  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-01-12 13:03:32.905  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:04:32.919  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 13:05:32.391  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:05:32.934  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 13:06:32.934  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:07:32.935  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:08:32.946  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-01-12 13:09:32.950  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 13:10:32.394  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:10:32.950  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:11:32.951  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:12:32.978  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 27ms
+2023-01-12 13:13:32.986  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 13:14:27.450  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 13:14:27.966  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 13:14:32.557  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 13:14:32.986  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:14:33.068  WARN 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:14:33.068  INFO 8380 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:14:33.068  WARN 8380 --- [TaskBatchingWorker-target_localhost-9] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 13:14:33.069  WARN 8380 --- [TaskBatchingWorker-target_localhost-9] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 13:14:43.451  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 13:14:43.962  INFO 8380 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 13:15:13.235  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 13:15:13.749  INFO 8380 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 13:15:18.326  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 13:15:18.840  WARN 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:15:18.840  INFO 8380 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:15:18.840  WARN 8380 --- [TaskBatchingWorker-target_localhost-13] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 13:15:18.840  WARN 8380 --- [TaskBatchingWorker-target_localhost-13] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 13:15:32.034  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 13:15:32.396  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:15:33.000  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 13:16:33.000  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:17:33.003  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 13:18:33.015  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-01-12 13:19:33.021  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 13:20:32.398  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:20:33.022  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:21:33.023  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:22:33.023  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:23:33.024  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:24:33.025  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 13:25:32.400  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:25:33.026  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:26:33.026  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:26:44.892  INFO 8380 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 13:26:45.397  INFO 8380 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 13:27:11.679  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 13:27:12.183  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 13:27:16.776  INFO 8380 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 13:27:17.279  WARN 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:27:17.279  INFO 8380 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 13:27:17.279  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 13:27:17.280  WARN 8380 --- [TaskBatchingWorker-target_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 13:27:33.026  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:28:33.027  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:29:33.027  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:30:32.034  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 13:30:32.400  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:30:33.027  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:31:33.028  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:32:33.036  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 13:33:33.051  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 13:34:33.051  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:35:32.405  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:35:33.057  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 13:36:33.072  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 13:37:33.077  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 13:38:33.083  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 13:39:33.083  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:40:32.413  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:40:33.098  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 13:41:33.113  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 13:42:33.113  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:43:33.114  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:44:33.122  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 13:45:32.035  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 13:45:32.418  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:45:33.138  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 16ms
+2023-01-12 13:46:33.139  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:47:33.148  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 13:48:33.151  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 13:49:33.151  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:50:32.430  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:50:33.164  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 13:51:33.164  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:52:33.167  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 13:53:33.175  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 13:54:33.176  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 13:55:32.435  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 13:55:33.176  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:56:33.188  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 13:57:33.190  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 13:58:33.190  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 13:59:33.197  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-01-12 14:00:32.046  INFO 8380 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 14:00:32.439  INFO 8380 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:00:33.202  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-01-12 14:01:33.202  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:02:04.850  INFO 8380 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=false)
+2023-01-12 14:02:05.358  INFO 8380 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status UP (replication=true)
+2023-01-12 14:02:33.202  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:03:33.203  INFO 8380 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
