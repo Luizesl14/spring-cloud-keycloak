@@ -18,6 +18,17 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.1</spring-cloud.version>
 	</properties>
+
+	<modules>
+		<module>admin-server</module>
+		<module>credit-module</module>
+		<module>crm</module>
+		<module>discovery</module>
+		<module>gateway</module>
+		<module>keycloak-module</module>
+		<module>register</module>
+		<module>risk-module</module>
+	</modules>
 	<dependencies>
 
 		<dependency>
