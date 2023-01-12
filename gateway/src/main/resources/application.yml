@@ -20,7 +20,6 @@ spring:
         jwt:
           issuer-uri: http://localhost:8080/realms/framework-azo
 
-
 server:
   port: 8081
 eureka:
@@ -42,8 +41,8 @@ logging:
     org:
       springframework:
         cloud:
-          gateway: error
-#          gateway: TRACE
+#          gateway: error
+          gateway: TRACE
 
 management:
   endpoints:

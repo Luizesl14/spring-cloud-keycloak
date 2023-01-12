@@ -75,3 +75,17 @@
 2023-01-12 14:45:08.377  INFO 19680 --- [restartedMain] crm.CrmApplication                       : Started CrmApplication in 3.509 seconds (JVM running for 4.168)
 2023-01-12 14:45:08.496  WARN 19680 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=crm-module, managementUrl=http://DESKTOP-52RDHCL:50302/actuator, healthUrl=http://DESKTOP-52RDHCL:50302/actuator/health, serviceUrl=http://DESKTOP-52RDHCL:50302/) at spring-boot-admin ([http://localhost:8089/instances]): Connection refused: no further information: localhost/127.0.0.1:8089; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8089. Further attempts are logged on DEBUG level
 2023-01-12 14:50:07.893  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:55:07.909  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:00:07.910  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:05:07.914  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:10:07.931  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:15:07.935  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:20:07.938  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:25:07.952  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:30:07.962  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:35:07.972  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:40:07.973  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:45:07.985  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:50:07.988  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:55:08.003  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 16:00:08.018  INFO 19680 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

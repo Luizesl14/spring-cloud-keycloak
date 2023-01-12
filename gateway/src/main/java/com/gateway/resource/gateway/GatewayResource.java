@@ -15,6 +15,10 @@ public class GatewayResource {
 
     @Bean
     public RouteLocator routes (RouteLocatorBuilder builder){
+
+        //.filters(f -> f.filters(filterFactory.apply())
+        //.filters(f -> f.filter(filterFactory.apply()).stripPrefix(1)
+
         return builder
                 .routes()
                 .route("adm", r-> r.path("/adm/**")
@@ -22,28 +26,23 @@ public class GatewayResource {
                         .uri("lb://admin-server/"))
 
                 .route("crm", r-> r.path("/crm/**")
-                        .filters(f -> f.filters(filterFactory.apply())
-                                .removeRequestHeader("Cookie"))
+                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://crm-module"))
 
                 .route("credit", r-> r.path("/credit/**")
-                        .filters(f -> f.filters(filterFactory.apply())
-                                .removeRequestHeader("Cookie"))
+                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://credit-module"))
 
                 .route("k_adm", r-> r.path("/k_adm/**")
-                        .filters(f -> f.filters(filterFactory.apply())
-                                .removeRequestHeader("Cookie"))
+                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://keycloak-module"))
 
                 .route("reg", r-> r.path("/reg/**")
-                        .filters(f -> f.filters(filterFactory.apply())
-                                .removeRequestHeader("Cookie"))
+                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://register-module"))
 
                 .route("risk", r-> r.path("/risk/**")
-                        .filters(f -> f.filters(filterFactory.apply())
-                                .removeRequestHeader("Cookie"))
+                        .filters(f-> f.stripPrefix(1))
                         .uri("lb://risk-module"))
                 .build();
     }

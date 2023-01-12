@@ -1013,3 +1013,208 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2023-01-12 14:49:19.789  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2023-01-12 14:50:19.802  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
 2023-01-12 14:51:19.803  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:52:19.804  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:53:19.747  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:53:19.804  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:54:19.817  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-01-12 14:55:19.822  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 14:56:19.837  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 14:57:19.849  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-01-12 14:58:19.675  INFO 17060 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2023-01-12 14:58:19.750  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 14:58:19.849  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 14:59:19.850  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:00:19.850  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:01:19.851  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:02:19.852  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:03:19.751  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:03:19.852  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:04:19.852  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:05:19.852  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:06:19.853  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 15:07:19.854  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:08:19.754  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:08:19.854  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:09:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:10:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:11:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:12:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:12:56.556  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:12:57.068  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:13:01.657  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/DESKTOP-52RDHCL:gateway:8081 (replication=false)
+2023-01-12 15:13:02.165  WARN 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/DESKTOP-52RDHCL:gateway:8081
+2023-01-12 15:13:02.165  INFO 17060 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - DESKTOP-52RDHCL:gateway:8081
+2023-01-12 15:13:02.166  WARN 17060 --- [TaskBatchingWorker-target_localhost-18] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:13:02.166  WARN 17060 --- [TaskBatchingWorker-target_localhost-18] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/DESKTOP-52RDHCL:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:13:13.591  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:13:14.104  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:13:19.676  INFO 17060 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 15:13:19.757  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:13:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:14:19.855  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:15:19.028  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:15:19.535  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:15:19.856  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:15:24.149  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:15:24.662  WARN 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:15:24.662  INFO 17060 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:15:24.663  WARN 17060 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:15:24.663  WARN 17060 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:16:19.857  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:16:22.617  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:16:23.123  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:17:19.857  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:17:21.630  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:17:22.137  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:17:26.723  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:17:26.755  WARN 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:17:26.756  INFO 17060 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:17:26.757  WARN 17060 --- [TaskBatchingWorker-target_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:17:26.758  WARN 17060 --- [TaskBatchingWorker-target_localhost-15] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:17:37.015  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:17:37.520  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:18:06.776  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:18:06.806  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:18:11.872  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:18:12.375  WARN 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:18:12.375  INFO 17060 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:18:12.376  WARN 17060 --- [TaskBatchingWorker-target_localhost-17] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:18:12.376  WARN 17060 --- [TaskBatchingWorker-target_localhost-17] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:18:19.759  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:18:19.858  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:18:40.877  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:18:41.381  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:19:19.858  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:20:19.859  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:21:19.859  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:22:19.859  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:23:19.761  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:23:19.859  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:24:19.860  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:25:19.861  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:26:19.861  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:27:19.862  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:28:19.677  INFO 17060 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 15:28:19.764  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:28:19.863  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:29:19.863  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:29:32.258  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:29:32.767  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:29:37.349  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:29:37.541  WARN 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:29:37.542  INFO 17060 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:29:37.544  WARN 17060 --- [TaskBatchingWorker-target_localhost-10] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:29:37.545  WARN 17060 --- [TaskBatchingWorker-target_localhost-10] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:30:19.864  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:30:43.393  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:30:43.902  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:31:19.865  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:32:19.865  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:33:19.765  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:33:19.865  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:34:19.866  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:35:19.866  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:35:32.647  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:35:33.159  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:35:37.748  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:35:37.917  WARN 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:35:37.918  INFO 17060 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:35:37.919  WARN 17060 --- [TaskBatchingWorker-target_localhost-19] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:35:37.920  WARN 17060 --- [TaskBatchingWorker-target_localhost-19] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:35:46.775  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:35:47.284  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:36:19.867  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:37:19.867  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:38:14.925  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:38:15.432  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:38:19.767  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:38:19.874  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-01-12 15:38:20.023  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:38:20.526  WARN 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:38:20.526  INFO 17060 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:38:20.527  WARN 17060 --- [TaskBatchingWorker-target_localhost-19] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:38:20.527  WARN 17060 --- [TaskBatchingWorker-target_localhost-19] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:38:32.350  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:38:32.856  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:39:00.482  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:39:00.994  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:39:05.583  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:39:06.084  WARN 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:39:06.085  INFO 17060 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:39:06.085  WARN 17060 --- [TaskBatchingWorker-target_localhost-0] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:39:06.085  WARN 17060 --- [TaskBatchingWorker-target_localhost-0] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:39:18.880  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:39:19.388  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:39:19.876  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 15:39:55.321  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:39:55.830  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:40:00.438  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:40:00.940  WARN 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:40:00.940  INFO 17060 --- [http-nio-8761-exec-4] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:40:00.940  WARN 17060 --- [TaskBatchingWorker-target_localhost-0] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:40:00.940  WARN 17060 --- [TaskBatchingWorker-target_localhost-0] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:40:11.584  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:40:12.096  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:40:19.877  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:41:19.877  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:42:19.878  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:43:19.677  INFO 17060 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 15:43:19.780  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:43:19.878  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:44:19.894  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2023-01-12 15:45:19.903  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-01-12 15:46:19.903  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:47:15.763  INFO 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:47:16.280  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:47:19.918  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-01-12 15:47:20.868  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:47:21.380  WARN 17060 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:47:21.380  INFO 17060 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:47:21.380  WARN 17060 --- [TaskBatchingWorker-target_localhost-5] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:47:21.380  WARN 17060 --- [TaskBatchingWorker-target_localhost-5] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:47:30.526  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:47:31.032  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:48:19.789  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:48:19.918  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:49:15.437  INFO 17060 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:49:15.950  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:49:19.921  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 15:49:20.536  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:49:20.845  WARN 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:49:20.846  INFO 17060 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:49:20.846  WARN 17060 --- [TaskBatchingWorker-target_localhost-8] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:49:20.846  WARN 17060 --- [TaskBatchingWorker-target_localhost-8] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:49:31.110  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:49:31.617  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:50:19.922  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-01-12 15:50:34.064  INFO 17060 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:50:34.573  INFO 17060 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:50:39.167  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:50:39.676  WARN 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:50:39.677  INFO 17060 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:50:39.677  WARN 17060 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:50:39.678  WARN 17060 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:50:48.364  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:50:48.880  INFO 17060 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:51:19.930  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-01-12 15:52:19.931  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:53:19.793  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:53:19.932  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-01-12 15:54:19.937  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-01-12 15:55:19.938  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:56:19.955  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 17ms
+2023-01-12 15:57:19.966  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-01-12 15:57:31.800  INFO 17060 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=false)
+2023-01-12 15:57:32.306  INFO 17060 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status DOWN (replication=true)
+2023-01-12 15:57:36.915  INFO 17060 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY/host.docker.internal:gateway:8081 (replication=false)
+2023-01-12 15:57:37.423  WARN 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/host.docker.internal:gateway:8081
+2023-01-12 15:57:37.423  INFO 17060 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): GATEWAY - host.docker.internal:gateway:8081
+2023-01-12 15:57:37.424  WARN 17060 --- [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost failed with response code 404
+2023-01-12 15:57:37.424  WARN 17060 --- [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/host.docker.internal:gateway:8081:Cancel@localhost: missing entry.
+2023-01-12 15:57:45.609  INFO 17060 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=false)
+2023-01-12 15:57:46.118  INFO 17060 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:gateway:8081 with status UP (replication=true)
+2023-01-12 15:58:19.684  INFO 17060 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 0
+2023-01-12 15:58:19.808  INFO 17060 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-12 15:58:19.966  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 15:59:19.967  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-01-12 16:00:19.978  INFO 17060 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
