@@ -20,6 +20,17 @@ spring:
         jwt:
           issuer-uri: http://localhost:8080/realms/framework-azo
 
+#      client:
+#        registration:
+#          cognito:
+#            clientId: clientId
+#            clientSecret: clientSecret
+#            clientName: azo-framework
+#        provider:
+#          cognito:
+#            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_kvemc00Ji
+
+
 server:
   port: 8081
 eureka:
